@@ -40,7 +40,7 @@ const Footer = () => {
 
 			{/* Links Container */}
 			<div className='flex flex-col md:flex-row gap-36 '>
-				<ul className='flex flex-col gap-5'>
+				<ul className='flex flex-col gap-5 '>
 					<h1 className='text-lg font-light mb-8'>ALL MODELS</h1>
 					{saecoProducts.map((m, i) => (
 						<li key={i}>
@@ -61,7 +61,6 @@ const Footer = () => {
 			</div>
 
 			{/* FOOTER ICONS */}
-
 			<div className='flex gap-5 justify-end'>
 				{/* TWITTER */}
 				<Button
@@ -111,6 +110,17 @@ const Footer = () => {
 					</a>
 				</Button>
 			</div>
+
+			{/* COPY TEXT */}
+			<p className='text-sm font-extralight text-center'>
+				&copy;Design by <Button variant={"outline"}>Ibn</Button> inspired by the
+				original website{" "}
+				<Button
+					asChild
+					variant={"link"}>
+					<Link href={"https://saeco.com/"}>Saeco</Link>
+				</Button>
+			</p>
 		</div>
 	);
 };

@@ -54,7 +54,7 @@ const Navbar = () => {
 						</Button>
 					</li>
 
-					<li>
+					{/* <li>
 						<Button
 							asChild
 							variant={"ghost"}
@@ -65,7 +65,7 @@ const Navbar = () => {
 								Contact Us
 							</Link>
 						</Button>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 
@@ -119,7 +119,7 @@ const Navbar = () => {
 							</Button>
 						</li>
 
-						<li>
+						{/* <li>
 							<Button
 								asChild
 								variant={"outline"}
@@ -130,7 +130,7 @@ const Navbar = () => {
 									Contact Us
 								</Link>
 							</Button>
-						</li>
+						</li> */}
 					</ul>
 				</SheetContent>
 			</Sheet>
