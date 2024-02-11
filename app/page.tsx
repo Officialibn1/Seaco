@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
 import SeacoSeries from "@/components/SeacoSeries";
 
@@ -9,6 +10,9 @@ export default function Home() {
 
 			{/* Series Section */}
 			<SeacoSeries />
+
+			{/* ABOUT SECTION */}
+			<AboutUs />
 		</div>
 	);
 }
