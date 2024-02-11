@@ -2,7 +2,9 @@ import React from "react";
 
 const AboutUs = () => {
 	return (
-		<div className='w-full  my-20 px-5 lg:px-0'>
+		<div
+			className='w-full  py-40 px-5 lg:px-0'
+			id='about'>
 			<h1 className='text-3xl lg:text-4xl font-normal text-center'>
 				About Seaco
 			</h1>

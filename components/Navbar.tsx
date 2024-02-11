@@ -35,11 +35,12 @@ const Navbar = () => {
 							size={"default"}>
 							<Link
 								className='text-xl font-extralight'
-								href={"/"}>
+								href={"/#models"}>
 								Models
 							</Link>
 						</Button>
 					</li>
+
 					<li>
 						<Button
 							asChild
@@ -47,11 +48,12 @@ const Navbar = () => {
 							size={"default"}>
 							<Link
 								className='text-xl font-extralight'
-								href={"/"}>
-								Accesories
+								href={"/#about"}>
+								About Us
 							</Link>
 						</Button>
 					</li>
+
 					<li>
 						<Button
 							asChild
@@ -60,7 +62,7 @@ const Navbar = () => {
 							<Link
 								className='text-xl font-extralight'
 								href={"/"}>
-								About Us
+								Contact Us
 							</Link>
 						</Button>
 					</li>
@@ -98,11 +100,12 @@ const Navbar = () => {
 								size={"default"}>
 								<Link
 									className='text-lg font-light'
-									href={"/"}>
+									href={"/#models"}>
 									Models
 								</Link>
 							</Button>
 						</li>
+
 						<li>
 							<Button
 								asChild
@@ -110,11 +113,12 @@ const Navbar = () => {
 								size={"default"}>
 								<Link
 									className='text-lg font-light'
-									href={"/"}>
-									Accesories
+									href={"/#about"}>
+									About Us
 								</Link>
 							</Button>
 						</li>
+
 						<li>
 							<Button
 								asChild
@@ -123,7 +127,7 @@ const Navbar = () => {
 								<Link
 									className='text-lg font-light'
 									href={"/"}>
-									About Us
+									Contact Us
 								</Link>
 							</Button>
 						</li>

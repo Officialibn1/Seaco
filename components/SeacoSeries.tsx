@@ -6,7 +6,9 @@ import product3 from "@/public/engine3.webp";
 
 const SeacoSeries = () => {
 	return (
-		<div className=' w-full my-20  px-5 lg:px-0'>
+		<div
+			className=' w-full py-40  px-5 lg:px-0'
+			id='models'>
 			<h1 className='text-2xl'>Xelsis Series</h1>
 
 			<p className='mt-5 text-lg font-light lg:w-2/4 '>
