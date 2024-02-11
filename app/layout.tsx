@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Themeprovider } from "@/providers/ThemeProvider";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Montserrat } from "next/font/google";
+
+// If loading a variable font, you don't need to specify the font weight
+const montserrat = Montserrat({
+	subsets: ["latin"],
+	weight: ["100", "200", "300", "400", "500"],
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -18,10 +23,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>
+			<body
+				className={`${montserrat.className} bg-background max-w-screen-xl mx-auto relative`}>
 				<Themeprovider
 					attribute='class'
-					defaultTheme='system'
+					defaultTheme='dark'
 					enableSystem>
 					<Navbar />
 					{children}
