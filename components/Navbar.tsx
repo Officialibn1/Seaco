@@ -12,7 +12,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 const Navbar = () => {
 	const { theme, setTheme } = useTheme();
 	return (
-		<div className='z-10 bg-background absolute top-0 left-0 w-full flex items-center gap-10 px-5 py-10'>
+		<div className='z-30 bg-background sticky top-0 left-0 w-full flex items-center gap-10 px-5 py-10'>
 			{/* Logo container */}
 			<div className='w-36 h-12  '>
 				<Link href={"/"}>
