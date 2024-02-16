@@ -23,7 +23,7 @@ const ProductCard = ({
 	return (
 		<Link
 			href={"/"}
-			className='w-[360px] mx-auto md:mx-0'>
+			className='w-[340px] mx-auto md:mx-0'>
 			{/* CARD COMPONENT */}
 			<Card>
 				{/* CARD IMAGE */}
